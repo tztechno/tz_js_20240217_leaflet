@@ -4,9 +4,4 @@ now.json & now.js are generated.
 
 now.js is read in emap_now.html.
 
-only one command operation is everything required.
-
-
-
-
 
