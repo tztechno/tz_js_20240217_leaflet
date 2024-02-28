@@ -9,7 +9,7 @@ twitter
 
 過去1ヶ月の地震発生状況 https://bit.ly/3SQEOgy
 
-	<meta name="twitter:card" content="earthquake-japan-past-one-month" />
+	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@IshiiStpete" />
 	<meta name="twitter:title" content="earthquake japan past one month">
 	<meta name="twitter:description" content="earthquake japan past one month">
