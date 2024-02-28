@@ -8,3 +8,9 @@ now.js is read in emap_now.html.
 twitter
 
 過去1ヶ月の地震発生状況 https://bit.ly/3SQEOgy
+
+	<meta name="twitter:card" content="earthquake-japan-past-one-month" />
+	<meta name="twitter:site" content="@IshiiStpete" />
+	<meta name="twitter:title" content="earthquake japan past one month">
+	<meta name="twitter:description" content="earthquake japan past one month">
+	<meta name="twitter:image" content="https://github.com/tztechno/tz_js_20240217_leaflet/now.png">
