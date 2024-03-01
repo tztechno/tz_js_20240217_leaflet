@@ -85,12 +85,12 @@ function getMarkerColor(magnitude) {
     // Normalize magnitude to be in the range [0, 1]
     var normalizedMagnitude;
 
-    if (magnitude <= 5) {
+    if (magnitude <= 4) {
 	normalizedMagnitude = 0;
-    } else if (magnitude >= 8) {
+    } else if (magnitude >= 7) {
 	normalizedMagnitude = 1;
     } else {
-	normalizedMagnitude = (magnitude - 5) / 3;
+	normalizedMagnitude = (magnitude - 4) / 3;
     }
 
     // Interpolate color based on the normalized magnitude
