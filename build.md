@@ -9,6 +9,7 @@ $ bash script.sh
 ```
 
 ```
+手動実行する場合
 circleci local execute -c .circleci/config.yml
 git add .
 git commit -m "Add generated files"
