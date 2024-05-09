@@ -8,6 +8,8 @@ $ node fetchEarthquakeData
 $ bash script.sh
 ```
 
+###  circleci local execute <job-name> [flags]  
+
 ```
 手動実行する場合
 circleci local execute -c .circleci/config.yml
