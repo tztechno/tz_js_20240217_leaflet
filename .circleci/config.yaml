@@ -16,7 +16,7 @@ jobs:
       # JavaScriptファイルを実行して生成されたファイルを取得
       - run:
           name: Execute fetchEarthquakeData.js file
-          command: node fetchEarthquakeData.js
+          command: node fetchEarthquakeData
 
       # 生成されたファイルをリポジトリに追加
       - persist_to_workspace:
