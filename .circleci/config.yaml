@@ -44,7 +44,7 @@ jobs:
           command: |
             git add .
             git commit -m "Add generated files"
-            git push origin master
+            git push origin main
 
 workflows:
   version: 2
