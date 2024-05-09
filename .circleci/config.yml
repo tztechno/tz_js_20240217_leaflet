@@ -55,10 +55,10 @@ workflows:
       - deploy:
           requires:
             - build
-
     triggers:
       - schedule:
           cron: "0 20 * * 4"  # 毎週木曜日の午後11時に実行
-      #- schedule:
-      #    cron: "0 0 * * 0"  # 毎週日曜日の0時に実行
-          
+          filters:
+            branches:
+              only:
+                - main
