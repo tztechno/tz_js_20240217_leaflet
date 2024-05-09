@@ -41,10 +41,10 @@ jobs:
       # リポジトリに変更をコミットしてプッシュ
       - run:
           name: Commit and Push changes
-          command: |
-            git add .
+          command: 
+            git add now.js now.json
             git commit -m "Add generated files"
-            git push origin main
+            git push -u origin main
 
 workflows:
   version: 2
