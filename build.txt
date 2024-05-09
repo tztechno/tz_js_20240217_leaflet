@@ -13,3 +13,24 @@ twitter
 <meta name="twitter:site" content="@IshiiStpete" />
 <meta name="twitter:title" content="earthquake past one month in japan ">
 <meta name="twitter:image" content="https://github.com/tztechno/tz_js_20240217_leaflet/blob/main/now.png?raw=true">
+
+
+---
+
+$ node fetchEarthquakeData
+$ bash script.sh
+
+now.json & now.js are generated.
+
+now.js is read in emap_now.html.
+
+only one command operation is everything required.
+
+https://github.com/tztechno/tz_js_20240217_leaflet
+
+
+
+circleci local execute -c .circleci/config.yml
+git add .
+git commit -m "Add generated files"
+git push origin master
